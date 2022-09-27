@@ -30,6 +30,13 @@ class EnterViewController: UIViewController {
     }
     
     @IBAction func registerTapped(_ sender: UIButton) {
+        let registerView = RegisterView.instanceFromNib()
+        registerView.frame = CGRect(x: -self.view.frame.width, y: 0, width: self.view.frame.width, height: self.view.frame.height)
+        self.view.addSubview(registerView)
+        
+        UIView.animate(withDuration: 0.3) {
+            registerView.frame.origin.x = 0
+        }
     }
     
     //MARK: - private methods
