@@ -51,6 +51,18 @@
                         <action selector="registerTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="Yvg-m8-HnP"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdo-Nh-FeC">
+                    <rect key="frame" x="320" y="50" width="74" height="38"/>
+                    <color key="backgroundColor" systemColor="systemPinkColor"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Close">
+                        <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                        <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="closeTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="gpC-ck-csT"/>
+                    </connections>
+                </button>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rqO-U9-e0s">
                     <rect key="frame" x="100" y="472" width="214" height="34"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -68,7 +80,9 @@
                 <constraint firstItem="yl4-4s-QCU" firstAttribute="top" secondItem="tJJ-hh-kbq" secondAttribute="bottom" constant="20" id="FT7-kH-cuj"/>
                 <constraint firstItem="tJJ-hh-kbq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="150" id="HbO-rO-OuQ"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="5OD-J8-BoW" secondAttribute="bottom" constant="120" id="IR4-gm-2SS"/>
+                <constraint firstItem="gdo-Nh-FeC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="Uhh-aO-NIx"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="tJJ-hh-kbq" secondAttribute="trailing" constant="150" id="aAE-YL-qM7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="gdo-Nh-FeC" secondAttribute="trailing" constant="20" id="bFQ-qY-dPw"/>
                 <constraint firstItem="5OD-J8-BoW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="140" id="bYl-x1-6vJ"/>
                 <constraint firstItem="8QR-dt-BTf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="150" id="cKY-fe-2jl"/>
                 <constraint firstItem="rqO-U9-e0s" firstAttribute="top" secondItem="8QR-dt-BTf" secondAttribute="bottom" constant="20" id="l6s-vp-ktj"/>
@@ -88,6 +102,9 @@
         </view>
     </objects>
     <resources>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemPurpleColor">
             <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

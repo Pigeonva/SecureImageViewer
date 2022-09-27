@@ -28,5 +28,12 @@ class RegisterView: UIView {
         
     }
     
-
+    @IBAction func closeTapped(_ sender: UIButton) {
+        UIView.animate(withDuration: 0.3) {
+            self.frame.origin.x = -self.frame.width
+        } completion: { _ in
+            self.removeFromSuperview()
+        }
+    }
+    
 }
