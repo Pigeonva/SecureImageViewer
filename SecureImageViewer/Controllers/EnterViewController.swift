@@ -74,3 +74,17 @@ class EnterViewController: UIViewController {
     
 }
 
+//MARK: - Extensions
+
+extension EnterViewController: UITextFieldDelegate {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        hideKeyboard()
+        
+        return true
+    }
+    
+    func hideKeyboard() {
+        passwordTextField.resignFirstResponder()
+    }
+}

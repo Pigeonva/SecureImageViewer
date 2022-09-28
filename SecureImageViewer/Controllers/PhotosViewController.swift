@@ -25,11 +25,7 @@ class PhotosViewController: UIViewController {
     var index = 0
     var marker = 1 {
         didSet {
-            if images[index].2 {
-                likeButton.setImage(UIImage(systemName: "heart.fill"), for: .normal)
-            } else {
-                likeButton.setImage(UIImage(systemName: "heart"), for: .normal)
-            }
+            likeButton.isSelected = images[index].2
         }
     }
     
@@ -41,9 +37,7 @@ class PhotosViewController: UIViewController {
         textField.delegate = self
         imageView.image = images[index].0
         textField.text = images[index].1
-        if images[index].2 {
-            likeButton.setImage(UIImage(systemName: "heart.fill"), for: .normal)
-        }
+        likeButton.isSelected = images[index].2
         
         secondImageView.contentMode = .scaleAspectFit
     }
