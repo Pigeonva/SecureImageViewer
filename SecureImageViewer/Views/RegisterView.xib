@@ -97,6 +97,7 @@
             <connections>
                 <outlet property="nameTextField" destination="yl4-4s-QCU" id="WO1-Nm-C3H"/>
                 <outlet property="passwordTextField" destination="rqO-U9-e0s" id="05V-FR-t3R"/>
+                <outlet property="registerButton" destination="5OD-J8-BoW" id="ulr-Wc-vQV"/>
             </connections>
             <point key="canvasLocation" x="137.68115942028987" y="55.915178571428569"/>
         </view>

@@ -16,6 +16,7 @@
 		352E774128E385E8001C8A6C /* UserDefaults+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E774028E385E8001C8A6C /* UserDefaults+extension.swift */; };
 		352E774628E38720001C8A6C /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352E774528E38720001C8A6C /* RegisterView.xib */; };
 		352E774828E38735001C8A6C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E774728E38735001C8A6C /* RegisterView.swift */; };
+		352E774A28E3B28E001C8A6C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E774928E3B28E001C8A6C /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		352E774028E385E8001C8A6C /* UserDefaults+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+extension.swift"; sourceTree = "<group>"; };
 		352E774528E38720001C8A6C /* RegisterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterView.xib; sourceTree = "<group>"; };
 		352E774728E38735001C8A6C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		352E774928E3B28E001C8A6C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				352E772D28E37FD3001C8A6C /* EnterViewController.swift */,
+				352E774928E3B28E001C8A6C /* MainViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				352E772E28E37FD3001C8A6C /* EnterViewController.swift in Sources */,
 				352E774828E38735001C8A6C /* RegisterView.swift in Sources */,
 				352E772A28E37FD3001C8A6C /* AppDelegate.swift in Sources */,
+				352E774A28E3B28E001C8A6C /* MainViewController.swift in Sources */,
 				352E774128E385E8001C8A6C /* UserDefaults+extension.swift in Sources */,
 				352E773E28E38419001C8A6C /* User.swift in Sources */,
 			);
