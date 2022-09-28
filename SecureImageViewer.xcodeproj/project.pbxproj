@@ -14,9 +14,9 @@
 		352E773628E37FD7001C8A6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352E773428E37FD7001C8A6C /* LaunchScreen.storyboard */; };
 		352E773E28E38419001C8A6C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E773D28E38419001C8A6C /* User.swift */; };
 		352E774128E385E8001C8A6C /* UserDefaults+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E774028E385E8001C8A6C /* UserDefaults+extension.swift */; };
-		352E774628E38720001C8A6C /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352E774528E38720001C8A6C /* RegisterView.xib */; };
-		352E774828E38735001C8A6C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E774728E38735001C8A6C /* RegisterView.swift */; };
 		352E774A28E3B28E001C8A6C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E774928E3B28E001C8A6C /* MainViewController.swift */; };
+		352E774C28E44265001C8A6C /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E774B28E44265001C8A6C /* CreateViewController.swift */; };
+		352E774E28E467F8001C8A6C /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E774D28E467F8001C8A6C /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +29,9 @@
 		352E773728E37FD7001C8A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		352E773D28E38419001C8A6C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		352E774028E385E8001C8A6C /* UserDefaults+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+extension.swift"; sourceTree = "<group>"; };
-		352E774528E38720001C8A6C /* RegisterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterView.xib; sourceTree = "<group>"; };
-		352E774728E38735001C8A6C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		352E774928E3B28E001C8A6C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		352E774B28E44265001C8A6C /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		352E774D28E467F8001C8A6C /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +98,8 @@
 			children = (
 				352E772D28E37FD3001C8A6C /* EnterViewController.swift */,
 				352E774928E3B28E001C8A6C /* MainViewController.swift */,
+				352E774B28E44265001C8A6C /* CreateViewController.swift */,
+				352E774D28E467F8001C8A6C /* PhotosViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -105,8 +107,6 @@
 		352E774428E386FD001C8A6C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				352E774528E38720001C8A6C /* RegisterView.xib */,
-				352E774728E38735001C8A6C /* RegisterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,7 +170,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				352E773628E37FD7001C8A6C /* LaunchScreen.storyboard in Resources */,
-				352E774628E38720001C8A6C /* RegisterView.xib in Resources */,
 				352E773328E37FD7001C8A6C /* Assets.xcassets in Resources */,
 				352E773128E37FD3001C8A6C /* Main.storyboard in Resources */,
 			);
@@ -184,9 +183,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				352E772E28E37FD3001C8A6C /* EnterViewController.swift in Sources */,
-				352E774828E38735001C8A6C /* RegisterView.swift in Sources */,
+				352E774C28E44265001C8A6C /* CreateViewController.swift in Sources */,
 				352E772A28E37FD3001C8A6C /* AppDelegate.swift in Sources */,
 				352E774A28E3B28E001C8A6C /* MainViewController.swift in Sources */,
+				352E774E28E467F8001C8A6C /* PhotosViewController.swift in Sources */,
 				352E774128E385E8001C8A6C /* UserDefaults+extension.swift in Sources */,
 				352E773E28E38419001C8A6C /* User.swift in Sources */,
 			);
