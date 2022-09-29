@@ -14,6 +14,7 @@ class PhotosViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var likeButton: UIButton!
+    @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
     
     
     //MARK: - let/var
@@ -34,6 +35,7 @@ class PhotosViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        registerForKeyboardNotifications()
         textField.delegate = self
         imageView.image = images[index].0
         textField.text = images[index].1
@@ -106,6 +108,28 @@ class PhotosViewController: UIViewController {
             self.secondImageView.removeFromSuperview()
         }
     }
+    
+    private func registerForKeyboardNotifications() {
+            NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+            NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+        }
+    
+    @objc private func keyboardWillShow(_ notification: NSNotification) {
+            guard let userInfo = notification.userInfo,
+                  let animationDuration = (userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as? NSNumber)?.doubleValue,
+                  let keyboardScreenEndFrame = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue else { return }
+            
+            if notification.name == UIResponder.keyboardWillHideNotification {
+                bottomConstraint.constant = 0
+            } else {
+                bottomConstraint.constant = keyboardScreenEndFrame.height + 10
+            }
+            
+            view.needsUpdateConstraints()
+            UIView.animate(withDuration: animationDuration) {
+                self.view.layoutIfNeeded()
+            }
+        }
 }
 
 //MARK: - Extensions
@@ -117,6 +141,7 @@ extension PhotosViewController: UITextFieldDelegate {
             UserDefaults.standard.set(text, forKey: keys[index] + "1")
             images[index].1 = text
         }
+        textField.resignFirstResponder()
         return true
     }
     
