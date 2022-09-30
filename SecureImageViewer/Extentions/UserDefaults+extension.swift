@@ -22,5 +22,4 @@ extension UserDefaults {
         }
         return nil
     }
-    
 }

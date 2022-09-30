@@ -24,7 +24,7 @@ class PhotosViewController: UIViewController {
     var secondImageView = UIImageView()
     let space: CGFloat = 20
     var index = 0
-    var marker = 1 {
+    var marker = 0 {
         didSet {
             likeButton.isSelected = images[index].2
         }
