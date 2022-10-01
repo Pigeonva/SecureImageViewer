@@ -40,6 +40,7 @@ class MainViewController: UIViewController {
         keys = savedKeys
         loadData()
         print(images.count)
+        collectionView.reloadData()
     }
     
     //MARK: - IBActions
