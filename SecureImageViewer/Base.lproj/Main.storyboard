@@ -170,7 +170,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="EDF-bt-dkR">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MainCollectionViewCell" id="EDF-bt-dkR" customClass="MainCollectionViewCell" customModule="SecureImageViewer" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ic2-0A-T4k">
@@ -188,6 +188,9 @@
                                                 <constraint firstItem="hei-2W-8Af" firstAttribute="leading" secondItem="Ic2-0A-T4k" secondAttribute="leading" id="QT7-YP-ctO"/>
                                             </constraints>
                                         </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageView" destination="hei-2W-8Af" id="GAA-Ob-ZE3"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -209,6 +212,9 @@
                             <constraint firstItem="ECX-07-mHs" firstAttribute="trailing" secondItem="J43-0n-pFH" secondAttribute="trailing" constant="16" id="zXs-XK-d3i"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="rjR-yM-vUm" id="27B-5H-0Xp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HQs-fe-Ah8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

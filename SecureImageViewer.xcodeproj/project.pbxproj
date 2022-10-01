@@ -17,6 +17,7 @@
 		352E774A28E3B28E001C8A6C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E774928E3B28E001C8A6C /* MainViewController.swift */; };
 		352E774C28E44265001C8A6C /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E774B28E44265001C8A6C /* CreateViewController.swift */; };
 		352E774E28E467F8001C8A6C /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E774D28E467F8001C8A6C /* PhotosViewController.swift */; };
+		352E777828E84744001C8A6C /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E777728E84744001C8A6C /* MainCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		352E774928E3B28E001C8A6C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		352E774B28E44265001C8A6C /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		352E774D28E467F8001C8A6C /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		352E777728E84744001C8A6C /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		352E774428E386FD001C8A6C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				352E777728E84744001C8A6C /* MainCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				352E772E28E37FD3001C8A6C /* EnterViewController.swift in Sources */,
 				352E774C28E44265001C8A6C /* CreateViewController.swift in Sources */,
 				352E772A28E37FD3001C8A6C /* AppDelegate.swift in Sources */,
+				352E777828E84744001C8A6C /* MainCollectionViewCell.swift in Sources */,
 				352E774A28E3B28E001C8A6C /* MainViewController.swift in Sources */,
 				352E774E28E467F8001C8A6C /* PhotosViewController.swift in Sources */,
 				352E774128E385E8001C8A6C /* UserDefaults+extension.swift in Sources */,

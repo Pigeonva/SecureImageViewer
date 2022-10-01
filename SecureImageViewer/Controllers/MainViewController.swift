@@ -11,6 +11,7 @@ class MainViewController: UIViewController {
     
     //MARK: - IBOutlet
     
+    @IBOutlet weak var collectionView: UICollectionView!
     
     //MARK: - let/var
 
