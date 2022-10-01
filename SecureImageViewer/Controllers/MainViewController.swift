@@ -164,4 +164,12 @@ extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSour
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 15
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let controller = self.storyboard?.instantiateViewController(withIdentifier: "PhotosViewController") as? PhotosViewController else { return }
+        controller.images = self.images
+        controller.keys = self.keys
+        controller.index = indexPath.item
+        navigationController?.pushViewController(controller, animated: true)
+    }
 }
