@@ -235,10 +235,10 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yE6-Ko-7ki">
-                                                <rect key="frame" x="20" y="275" width="374" height="264"/>
+                                                <rect key="frame" x="20" y="239" width="374" height="300"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="264" id="gNX-tE-9x8"/>
+                                                    <constraint firstAttribute="height" constant="300" id="gNX-tE-9x8"/>
                                                 </constraints>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5u-or-pK1">
@@ -335,10 +335,10 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eFX-uo-hUA">
-                                                <rect key="frame" x="20" y="257" width="374" height="225"/>
+                                                <rect key="frame" x="20" y="232" width="374" height="300"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="225" id="yoN-82-HG4"/>
+                                                    <constraint firstAttribute="height" constant="300" id="yoN-82-HG4"/>
                                                 </constraints>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cNI-l0-Qj7">
@@ -420,7 +420,7 @@
                                             <constraint firstItem="eFX-uo-hUA" firstAttribute="leading" secondItem="pTL-PU-4MC" secondAttribute="leading" constant="20" symbolic="YES" id="agy-Fu-lQy"/>
                                             <constraint firstItem="cNI-l0-Qj7" firstAttribute="top" secondItem="LbY-Zw-YLv" secondAttribute="bottom" constant="40" id="ddK-wF-Nws"/>
                                             <constraint firstAttribute="trailing" secondItem="9V6-qf-nuI" secondAttribute="trailing" constant="177" id="oHG-vI-hgB"/>
-                                            <constraint firstItem="9V6-qf-nuI" firstAttribute="top" secondItem="eFX-uo-hUA" secondAttribute="bottom" constant="100" id="oyY-ZD-1NC"/>
+                                            <constraint firstItem="9V6-qf-nuI" firstAttribute="top" secondItem="eFX-uo-hUA" secondAttribute="bottom" constant="50" id="oyY-ZD-1NC"/>
                                             <constraint firstAttribute="bottom" secondItem="LqP-Wc-oSO" secondAttribute="bottom" constant="70" id="pPL-zO-Z9s"/>
                                             <constraint firstItem="LqP-Wc-oSO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="cNI-l0-Qj7" secondAttribute="trailing" constant="8" symbolic="YES" id="qnp-44-7F8"/>
                                             <constraint firstItem="LbY-Zw-YLv" firstAttribute="top" secondItem="9V6-qf-nuI" secondAttribute="bottom" constant="70" id="rmy-xy-62R"/>
