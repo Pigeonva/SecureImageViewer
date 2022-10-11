@@ -18,6 +18,8 @@
 		352E774C28E44265001C8A6C /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E774B28E44265001C8A6C /* CreateViewController.swift */; };
 		352E774E28E467F8001C8A6C /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E774D28E467F8001C8A6C /* PhotosViewController.swift */; };
 		352E777828E84744001C8A6C /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E777728E84744001C8A6C /* MainCollectionViewCell.swift */; };
+		35CD93E428F602230049C77F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35CD93E628F602230049C77F /* Localizable.strings */; };
+		35CD93E928F605380049C77F /* String+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD93E828F605380049C77F /* String+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,9 @@
 		352E777728E84744001C8A6C /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		35CD93E028F5F8710049C77F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		35CD93E128F5F8710049C77F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		35CD93E528F602230049C77F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		35CD93E728F602250049C77F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		35CD93E828F605380049C77F /* String+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 				352E773228E37FD7001C8A6C /* Assets.xcassets */,
 				352E773428E37FD7001C8A6C /* LaunchScreen.storyboard */,
 				352E773728E37FD7001C8A6C /* Info.plist */,
+				35CD93E628F602230049C77F /* Localizable.strings */,
 			);
 			path = SecureImageViewer;
 			sourceTree = "<group>";
@@ -85,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				352E774028E385E8001C8A6C /* UserDefaults+extension.swift */,
+				35CD93E828F605380049C77F /* String+extensions.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -176,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				352E773628E37FD7001C8A6C /* LaunchScreen.storyboard in Resources */,
+				35CD93E428F602230049C77F /* Localizable.strings in Resources */,
 				352E773328E37FD7001C8A6C /* Assets.xcassets in Resources */,
 				352E773128E37FD3001C8A6C /* Main.storyboard in Resources */,
 			);
@@ -195,6 +203,7 @@
 				352E774A28E3B28E001C8A6C /* MainViewController.swift in Sources */,
 				352E774E28E467F8001C8A6C /* PhotosViewController.swift in Sources */,
 				352E774128E385E8001C8A6C /* UserDefaults+extension.swift in Sources */,
+				35CD93E928F605380049C77F /* String+extensions.swift in Sources */,
 				352E773E28E38419001C8A6C /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +227,15 @@
 				35CD93E128F5F8710049C77F /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		35CD93E628F602230049C77F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35CD93E528F602230049C77F /* en */,
+				35CD93E728F602250049C77F /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

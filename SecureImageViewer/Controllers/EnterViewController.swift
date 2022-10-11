@@ -35,9 +35,15 @@ class EnterViewController: UIViewController {
             registerButton.isHidden = true
             nameTextField.isHidden = true
             nameLabel.isHidden = true
-            greetingLabel.text = "Hello, \(user.name)!"
+            greetingLabel.text = "Hello, ".localize()+"\(user.name)!"
             self.user = user
         }
+    }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        
+        greetingLabel.text = "Greetings, Dear Guest!".localize()
     }
 
     //MARK: - IBActions

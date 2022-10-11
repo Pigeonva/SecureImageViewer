@@ -44,8 +44,5 @@
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "m1N-k2-L8x"; */
 "m1N-k2-L8x.normalTitle" = "Кнопка";
 
-/* Class = "UILabel"; text = "Greetings, Dear  Guest!"; ObjectID = "m6Y-fP-3Em"; */
-"m6Y-fP-3Em.text" = "Здравствуйте, уважаемый пользователь!";
-
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "mDJ-oj-xj8"; */
 "mDJ-oj-xj8.normalTitle" = "Кнопка";
