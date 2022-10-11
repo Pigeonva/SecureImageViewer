@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "Your name"; ObjectID = "5ec-2M-UJn"; */
+"5ec-2M-UJn.text" = "Ваше имя";
+
+/* Class = "UIButton"; configuration.title = "Register"; ObjectID = "DSn-fo-xsr"; */
+"DSn-fo-xsr.configuration.title" = "Зарегестрироваться";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "DSn-fo-xsr"; */
+"DSn-fo-xsr.normalTitle" = "Кнопка";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "DZK-eu-G0D"; */
+"DZK-eu-G0D.normalTitle" = "Кнопка";
+
+/* Class = "UILabel"; text = "Enter password"; ObjectID = "Fgy-v4-tZe"; */
+"Fgy-v4-tZe.text" = "Введите пароль";
+
+/* Class = "UIButton"; configuration.title = "Back"; ObjectID = "J43-0n-pFH"; */
+"J43-0n-pFH.configuration.title" = "Назад";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "J43-0n-pFH"; */
+"J43-0n-pFH.normalTitle" = "Кнопка";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LqP-Wc-oSO"; */
+"LqP-Wc-oSO.normalTitle" = "Кнопка";
+
+/* Class = "UIButton"; configuration.title = "Enter"; ObjectID = "SIy-MK-f9b"; */
+"SIy-MK-f9b.configuration.title" = "Войти";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SIy-MK-f9b"; */
+"SIy-MK-f9b.normalTitle" = "Кнопка";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cNI-l0-Qj7"; */
+"cNI-l0-Qj7.normalTitle" = "Кнопка";
+
+/* Class = "UIButton"; configuration.title = "Create"; ObjectID = "d5u-or-pK1"; */
+"d5u-or-pK1.configuration.title" = "Создать";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "d5u-or-pK1"; */
+"d5u-or-pK1.normalTitle" = "Кнопка";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dSZ-4u-WcU"; */
+"dSZ-4u-WcU.normalTitle" = "Кнопка";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "m1N-k2-L8x"; */
+"m1N-k2-L8x.normalTitle" = "Кнопка";
+
+/* Class = "UILabel"; text = "Greetings, Dear  Guest!"; ObjectID = "m6Y-fP-3Em"; */
+"m6Y-fP-3Em.text" = "Здравствуйте, уважаемый пользователь!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "mDJ-oj-xj8"; */
+"mDJ-oj-xj8.normalTitle" = "Кнопка";
