@@ -13,6 +13,8 @@ class MainCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var imageView: UIImageView!
     
+    //MARK: - methods
+    
     func configure(with image: UIImage) {
         imageView.image = image
     }
